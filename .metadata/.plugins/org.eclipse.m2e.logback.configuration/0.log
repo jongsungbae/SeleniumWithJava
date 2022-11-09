@@ -18,3 +18,110 @@
 2022-11-08 00:15:51,953 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\inetBankingV1\src\main\resources
 2022-11-08 00:15:51,956 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-08 00:15:51,957 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\inetBankingV1\src\test\resources
+2022-11-09 13:58:09,420 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-09 13:59:59,449 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-09 14:02:06,705 [Worker-21: Launching mavenrun-6819e61f-6150-4854-8f95-975514c7e825] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\SeleniumWithJava
+2022-11-09 14:02:06,711 [Worker-21: Launching mavenrun-6819e61f-6150-4854-8f95-975514c7e825] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DarchetypeVersion=1.1 -Dpackage=myStore.myStore -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DgroupId=myStore -DartifactId=myStore -DoutputDirectory=E:\SeleniumWithJava -Dversion=0.0.1-SNAPSHOT -Dstyle.color=always -U archetype:generate
+2022-11-09 14:02:53,111 [Worker-18: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' E:\SeleniumWithJava\myStore\pom.xml
+2022-11-09 14:02:58,040 [Worker-18: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: myStore:myStore:0.0.1-SNAPSHOT @ E:\SeleniumWithJava\myStore\pom.xml.
+2022-11-09 14:02:59,613 [Worker-18: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myStore/src/main/java
+2022-11-09 14:02:59,650 [Worker-18: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myStore/src/test/java
+2022-11-09 14:02:59,995 [Worker-18: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2022-11-09 14:03:00,342 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2022-11-09 14:03:00,425 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2022-11-09 14:03:00,433 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2022-11-09 14:03:03,922 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2: https://issues.sonatype.org/browse/MVNCENTRAL-244
+2022-11-09 14:03:05,604 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:03:05,604 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\inetBankingV1\src\main\resources
+2022-11-09 14:03:05,609 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:03:05,609 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\inetBankingV1\src\test\resources
+2022-11-09 14:03:06,959 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:03:06,960 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:03:06,965 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:03:06,965 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:03:42,450 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:03:42,450 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:03:42,454 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:03:42,455 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:03:52,214 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:03:52,215 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:03:52,217 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:03:52,218 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:04:05,559 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:04:05,559 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:04:05,563 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:04:05,563 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:04:35,341 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:04:35,342 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:04:35,346 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:04:35,346 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:05:37,432 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:05:37,432 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:05:37,436 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:05:37,436 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:05:49,134 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:05:49,134 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:05:49,136 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:05:49,136 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:05:58,785 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:05:58,785 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:05:58,788 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:05:58,788 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:06:10,163 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:06:10,163 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:06:10,166 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:06:10,166 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:06:56,221 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: myStore:myStore:0.0.1-SNAPSHOT @ E:\SeleniumWithJava\myStore\pom.xml.
+2022-11-09 14:06:56,461 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2: https://issues.sonatype.org/browse/MVNCENTRAL-244
+2022-11-09 14:06:56,987 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:06:56,988 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:06:56,993 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:06:56,993 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:06:58,540 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:06:58,540 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:06:58,543 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:06:58,543 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:07:37,339 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:07:37,339 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:07:37,342 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:07:37,342 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:07:44,037 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:07:44,037 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:07:44,040 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:07:44,040 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:08:11,641 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:08:11,641 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:08:11,646 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:08:11,647 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:08:28,805 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:08:28,805 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:08:28,810 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:08:28,811 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:08:56,145 [Worker-10: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:08:56,145 [Worker-10: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:08:56,149 [Worker-10: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:08:56,149 [Worker-10: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:09:36,925 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:09:36,925 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:09:36,928 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:09:36,929 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:10:21,212 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:10:21,213 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:10:21,218 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:10:21,219 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:10:22,287 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:10:22,288 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\inetBankingV1\src\main\resources
+2022-11-09 14:10:22,292 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:10:22,293 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\inetBankingV1\src\test\resources
+2022-11-09 14:10:22,321 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:10:22,321 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:10:22,325 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:10:22,326 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:12:49,368 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:12:49,368 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:12:49,373 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:12:49,373 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
+2022-11-09 14:14:09,327 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:14:09,327 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\main\resources
+2022-11-09 14:14:09,334 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:14:09,334 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SeleniumWithJava\myStore\src\test\resources
