@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-10T05:51:46Z" name="myStoreV1" finished-at="2022-11-10T05:51:52Z" duration-ms="5291">
+    <groups>
+    </groups>
+    <test started-at="2022-11-10T05:51:46Z" name="eCommerce Test" finished-at="2022-11-10T05:51:52Z" duration-ms="5291">
+      <class name="com.mystore.testCases.TC_IndexTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@33afa13b]" started-at="2022-11-10T05:51:46Z" name="setup" finished-at="2022-11-10T05:51:51Z" duration-ms="4761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="indexTest()[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@33afa13b]" started-at="2022-11-10T05:51:51Z" name="indexTest" finished-at="2022-11-10T05:51:51Z" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- indexTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@33afa13b]" started-at="2022-11-10T05:51:51Z" name="tearDown" finished-at="2022-11-10T05:51:52Z" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testCases.TC_IndexTest_001 -->
+    </test> <!-- eCommerce Test -->
+  </suite> <!-- myStoreV1 -->
+</testng-results>
