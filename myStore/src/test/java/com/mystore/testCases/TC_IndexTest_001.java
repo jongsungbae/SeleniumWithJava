@@ -21,6 +21,11 @@ public class TC_IndexTest_001 extends baseClass{
 			logger.info("index Page failed");
 		}
 		
+		Assert.assertTrue(indexPage.indexValidate());
+		
+		indexPage.txtSearchBox("iPhone");
+		indexPage.searchBtn();
+		logger.info("successfully search");
 		
 	}
 

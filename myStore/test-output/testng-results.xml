@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-10T05:51:46Z" name="myStoreV1" finished-at="2022-11-10T05:51:52Z" duration-ms="5291">
+  <suite started-at="2022-11-10T21:43:21Z" name="myStoreV1" finished-at="2022-11-10T21:43:27Z" duration-ms="5881">
     <groups>
     </groups>
-    <test started-at="2022-11-10T05:51:46Z" name="eCommerce Test" finished-at="2022-11-10T05:51:52Z" duration-ms="5291">
+    <test started-at="2022-11-10T21:43:21Z" name="eCommerce Test" finished-at="2022-11-10T21:43:27Z" duration-ms="5881">
       <class name="com.mystore.testCases.TC_IndexTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@33afa13b]" started-at="2022-11-10T05:51:46Z" name="setup" finished-at="2022-11-10T05:51:51Z" duration-ms="4761" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@33afa13b]" started-at="2022-11-10T21:43:22Z" name="setup" finished-at="2022-11-10T21:43:26Z" duration-ms="4718" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="indexTest()[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@33afa13b]" started-at="2022-11-10T05:51:51Z" name="indexTest" finished-at="2022-11-10T05:51:51Z" duration-ms="53" status="PASS">
+        <test-method signature="indexTest()[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@33afa13b]" started-at="2022-11-10T21:43:26Z" name="indexTest" finished-at="2022-11-10T21:43:27Z" duration-ms="675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indexTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@33afa13b]" started-at="2022-11-10T05:51:51Z" name="tearDown" finished-at="2022-11-10T05:51:52Z" duration-ms="218" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@33afa13b]" started-at="2022-11-10T21:43:27Z" name="tearDown" finished-at="2022-11-10T21:43:27Z" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
