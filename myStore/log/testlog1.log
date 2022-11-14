@@ -10,3 +10,46 @@
 2022-11-10 16:39:09,467 [main] INFO myStore - Index Page is displayed
 2022-11-10 16:43:26,762 [main] INFO myStore - URL is opened
 2022-11-10 16:43:26,820 [main] INFO myStore - Index Page is displayed
+2022-11-14 14:35:23,460 [main] INFO myStore - URL is opened
+2022-11-14 14:35:23,521 [main] INFO myStore - Index Page is displayed
+2022-11-14 14:35:24,338 [main] INFO myStore - successfully search
+2022-11-14 14:35:28,675 [main] INFO myStore - URL is opened
+2022-11-14 14:39:48,323 [main] INFO myStore - URL is opened
+2022-11-14 14:40:03,216 [main] INFO myStore - URL is opened
+2022-11-14 14:40:41,969 [main] INFO myStore - URL is opened
+2022-11-14 14:40:56,582 [main] INFO myStore - URL is opened
+2022-11-14 14:41:28,498 [main] INFO myStore - URL is opened
+2022-11-14 14:41:41,554 [main] INFO myStore - URL is opened
+2022-11-14 14:43:08,680 [main] INFO myStore - URL is opened
+2022-11-14 14:43:23,613 [main] INFO myStore - URL is opened
+2022-11-14 14:43:47,793 [main] INFO myStore - URL is opened
+2022-11-14 14:45:56,413 [main] INFO myStore - URL is opened
+2022-11-14 14:45:56,485 [main] INFO myStore - Index Page is displayed
+2022-11-14 14:45:57,323 [main] INFO myStore - successfully search
+2022-11-14 14:46:02,071 [main] INFO myStore - URL is opened
+2022-11-14 14:46:02,728 [main] INFO myStore - input username
+2022-11-14 14:46:02,826 [main] INFO myStore - input password
+2022-11-14 15:05:09,746 [main] INFO myStore - URL is opened
+2022-11-14 15:05:09,823 [main] INFO myStore - Index Page is displayed
+2022-11-14 15:05:10,661 [main] INFO myStore - successfully search
+2022-11-14 15:05:15,273 [main] INFO myStore - URL is opened
+2022-11-14 15:05:16,715 [main] INFO myStore - input username
+2022-11-14 15:05:16,818 [main] INFO myStore - input password
+2022-11-14 15:10:17,077 [main] INFO myStore - URL is opened
+2022-11-14 15:10:17,137 [main] INFO myStore - Index Page is displayed
+2022-11-14 15:10:17,971 [main] INFO myStore - successfully search
+2022-11-14 15:10:22,634 [main] INFO myStore - URL is opened
+2022-11-14 15:10:24,015 [main] INFO myStore - input username
+2022-11-14 15:10:24,120 [main] INFO myStore - input password
+2022-11-14 15:19:43,571 [main] INFO myStore - URL is opened
+2022-11-14 15:19:43,623 [main] INFO myStore - Index Page is displayed
+2022-11-14 15:19:44,447 [main] INFO myStore - successfully search
+2022-11-14 15:19:49,070 [main] INFO myStore - URL is opened
+2022-11-14 15:19:50,343 [main] INFO myStore - input username
+2022-11-14 15:19:50,444 [main] INFO myStore - input password
+2022-11-14 15:24:12,292 [main] INFO myStore - URL is opened
+2022-11-14 15:24:12,367 [main] INFO myStore - Index Page is displayed
+2022-11-14 15:24:13,210 [main] INFO myStore - successfully search
+2022-11-14 15:24:17,737 [main] INFO myStore - URL is opened
+2022-11-14 15:24:18,984 [main] INFO myStore - input username
+2022-11-14 15:24:19,087 [main] INFO myStore - input password

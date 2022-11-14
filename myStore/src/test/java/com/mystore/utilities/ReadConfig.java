@@ -39,4 +39,24 @@ public class ReadConfig {
 		String edgepath = pro.getProperty("edgepath");
 		return edgepath;
 	}
+	
+	public String getSearchItem() {
+		String searchText = pro.getProperty("searchItem");
+		return searchText;
+	}
+	
+	public String getEmail() {
+		String email = pro.getProperty("username");
+		return email;
+	}
+	
+	public String getPassword() {
+		String password = pro.getProperty("password");
+		return password;
+	}
+	
+	public String getLoginData() {
+		String loginDataPath = pro.getProperty("loginTestDataPath");
+		return loginDataPath;
+	}
 }

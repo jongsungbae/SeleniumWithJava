@@ -7,13 +7,13 @@
   <test thread-count="5" name="eCommerce Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.mystore.testCases.TC_IndexTest_001">
+      <class name="com.mystore.testCases.TC_LoginTest_001">
         <methods>
-          <include name="indexTest"/>
+          <include name="loginTest" invocation-numbers="1 2 3 4"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.mystore.testCases.TC_IndexTest_001 -->
+      </class> <!-- com.mystore.testCases.TC_LoginTest_001 -->
     </classes>
   </test> <!-- eCommerce Test(failed) -->
 </suite> <!-- Failed suite [myStoreV1] -->
