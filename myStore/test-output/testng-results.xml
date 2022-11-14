@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-14T20:24:07Z" name="myStoreV1" finished-at="2022-11-14T20:24:20Z" duration-ms="13058">
+  <suite started-at="2022-11-14T22:13:14Z" name="myStoreV1" finished-at="2022-11-14T22:13:36Z" duration-ms="22669">
     <groups>
     </groups>
-    <test started-at="2022-11-14T20:24:07Z" name="eCommerce Test" finished-at="2022-11-14T20:24:20Z" duration-ms="13058">
+    <test started-at="2022-11-14T22:13:14Z" name="eCommerce Test" finished-at="2022-11-14T22:13:36Z" duration-ms="22669">
       <class name="com.mystore.testCases.TC_IndexTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@63a65a25]" started-at="2022-11-14T20:24:07Z" name="setup" finished-at="2022-11-14T20:24:12Z" duration-ms="4969" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@163e4e87]" started-at="2022-11-14T22:13:14Z" name="setup" finished-at="2022-11-14T22:13:19Z" duration-ms="5415" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="indexTest()[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@63a65a25]" started-at="2022-11-14T20:24:12Z" name="indexTest" finished-at="2022-11-14T20:24:13Z" duration-ms="898" status="PASS">
+        <test-method signature="indexTest()[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@163e4e87]" started-at="2022-11-14T22:13:19Z" name="indexTest" finished-at="2022-11-14T22:13:20Z" duration-ms="887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indexTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@63a65a25]" started-at="2022-11-14T20:24:13Z" name="tearDown" finished-at="2022-11-14T20:24:13Z" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@163e4e87]" started-at="2022-11-14T22:13:20Z" name="tearDown" finished-at="2022-11-14T22:13:21Z" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testCases.TC_IndexTest_001 -->
       <class name="com.mystore.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_LoginTest_001@54c562f7]" started-at="2022-11-14T20:24:13Z" name="setup" finished-at="2022-11-14T20:24:17Z" duration-ms="4243" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_LoginTest_001@56de5251]" started-at="2022-11-14T22:13:21Z" name="setup" finished-at="2022-11-14T22:13:25Z" duration-ms="4572" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testCases.TC_LoginTest_001@54c562f7]" started-at="2022-11-14T20:24:18Z" name="loginTest" data-provider="LoginData" finished-at="2022-11-14T20:24:19Z" duration-ms="1558" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testCases.TC_LoginTest_001@56de5251]" started-at="2022-11-14T22:13:26Z" name="loginTest" data-provider="LoginData" finished-at="2022-11-14T22:13:27Z" duration-ms="1544" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,11 +55,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_LoginTest_001@54c562f7]" started-at="2022-11-14T20:24:19Z" name="tearDown" finished-at="2022-11-14T20:24:20Z" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_LoginTest_001@56de5251]" started-at="2022-11-14T22:13:27Z" name="tearDown" finished-at="2022-11-14T22:13:28Z" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testCases.TC_LoginTest_001 -->
+      <class name="com.mystore.testCases.TC_RegisterTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_RegisterTest@419c5f1a]" started-at="2022-11-14T22:13:28Z" name="setup" finished-at="2022-11-14T22:13:32Z" duration-ms="4312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerTest()[pri:0, instance:com.mystore.testCases.TC_RegisterTest@419c5f1a]" started-at="2022-11-14T22:13:32Z" name="registerTest" finished-at="2022-11-14T22:13:36Z" duration-ms="4253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_RegisterTest@419c5f1a]" started-at="2022-11-14T22:13:36Z" name="tearDown" finished-at="2022-11-14T22:13:36Z" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testCases.TC_RegisterTest -->
     </test> <!-- eCommerce Test -->
   </suite> <!-- myStoreV1 -->
 </testng-results>

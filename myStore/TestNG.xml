@@ -14,6 +14,7 @@
        
        <class name="com.mystore.testCases.TC_IndexTest_001" />
        <class name="com.mystore.testCases.TC_LoginTest_001" />
+       <class name="com.mystore.testCases.TC_RegisterTest" />
 
     </classes>
   </test>

@@ -53,3 +53,10 @@
 2022-11-14 15:24:17,737 [main] INFO myStore - URL is opened
 2022-11-14 15:24:18,984 [main] INFO myStore - input username
 2022-11-14 15:24:19,087 [main] INFO myStore - input password
+2022-11-14 17:13:19,925 [main] INFO myStore - URL is opened
+2022-11-14 17:13:19,980 [main] INFO myStore - Index Page is displayed
+2022-11-14 17:13:20,823 [main] INFO myStore - successfully search
+2022-11-14 17:13:25,633 [main] INFO myStore - URL is opened
+2022-11-14 17:13:26,944 [main] INFO myStore - input username
+2022-11-14 17:13:27,053 [main] INFO myStore - input password
+2022-11-14 17:13:32,377 [main] INFO myStore - URL is opened

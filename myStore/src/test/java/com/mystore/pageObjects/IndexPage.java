@@ -32,6 +32,10 @@ public class IndexPage {
 	@FindBy(linkText="Login")
 	@CacheLookup
 	WebElement loginBtn;
+	
+	@FindBy(linkText="Register")
+	@CacheLookup
+	WebElement registerBtn;
 
 	
 	public boolean indexValidate() {
@@ -51,6 +55,12 @@ public class IndexPage {
 	public void loginBtn() {
 		myAccountBtn.click();
 		loginBtn.click();
+		
+	}
+	
+	public void registerBtn() {
+		myAccountBtn.click();
+		registerBtn.click();
 		
 	}
 	
