@@ -6,7 +6,7 @@ import java.io.IOException;
 import com.mystore.pageObjects.IndexPage;
 
 public class TC_IndexTest_001 extends baseClass{
-	public String searchItem = readconfig.getSearchItem();
+	
 	
 	@Test
 	public void indexTest() throws IOException{
@@ -24,8 +24,5 @@ public class TC_IndexTest_001 extends baseClass{
 		
 		Assert.assertTrue(indexPage.indexValidate());
 		
-		indexPage.txtSearchBox(searchItem);
-		indexPage.searchBtn();
-		logger.info("successfully search");
 	}
 }

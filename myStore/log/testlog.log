@@ -60,3 +60,8 @@
 2022-11-14 17:13:26,944 - myStore -INFO - input username
 2022-11-14 17:13:27,053 - myStore -INFO - input password
 2022-11-14 17:13:32,377 - myStore -INFO - URL is opened
+2022-11-15 15:19:45,833 - myStore -INFO - URL is opened
+2022-11-15 15:19:46,746 - myStore -INFO - successfully search
+2022-11-15 15:19:47,499 - myStore -INFO - click the menu
+2022-11-15 15:19:47,547 - myStore -INFO - explicit wait - wait for the image to be click-able
+2022-11-15 15:19:49,540 - myStore -INFO - item click success

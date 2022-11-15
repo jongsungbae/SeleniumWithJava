@@ -11,10 +11,11 @@
   <test name="eCommerce Test" >
   	<parameter name="browser" value="chrome" />
     <classes>
-       
+       <!--  
        <class name="com.mystore.testCases.TC_IndexTest_001" />
        <class name="com.mystore.testCases.TC_LoginTest_001" />
-       <class name="com.mystore.testCases.TC_RegisterTest" />
+       <class name="com.mystore.testCases.TC_RegisterTest" />-->
+       <class name="com.mystore.testCases.TC_SearchTest_001" />
 
     </classes>
   </test>

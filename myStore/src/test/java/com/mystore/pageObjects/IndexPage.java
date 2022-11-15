@@ -36,7 +36,10 @@ public class IndexPage {
 	@FindBy(linkText="Register")
 	@CacheLookup
 	WebElement registerBtn;
-
+	
+	@FindBy(linkText="Phones & PDAs")
+	@CacheLookup
+	WebElement menubar;
 	
 	public boolean indexValidate() {
 		searchBox.isDisplayed();
@@ -62,6 +65,10 @@ public class IndexPage {
 		myAccountBtn.click();
 		registerBtn.click();
 		
+	}
+	
+	public void clickmenu() {
+		menubar.click();
 	}
 	
 }
