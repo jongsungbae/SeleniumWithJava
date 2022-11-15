@@ -23,6 +23,14 @@ WebDriver ldriver;
 	@CacheLookup
 	WebElement clickiPhone;
 	
+	@FindBy(xpath = "//h2[text()='Laptops & Notebooks']")
+	@CacheLookup
+	WebElement laptopTitle;
+	
+	@FindBy(linkText = "HP LP3065")
+	@CacheLookup
+	WebElement laptop;
+	
 	public boolean validateSearchResult() {
 		searchImg.isDisplayed();
 		return true;
@@ -31,5 +39,13 @@ WebDriver ldriver;
 	public void clickiPhone() {
 		clickiPhone.click();
 	}
+	
+	public String getLaptopTitle() {
+		String actualTitle = laptopTitle.getText();
+		return actualTitle;
+	}
 
+	public void clickLaptop() {
+		laptop.click();
+	}
 }

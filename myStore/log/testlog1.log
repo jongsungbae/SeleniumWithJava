@@ -65,3 +65,160 @@
 2022-11-15 15:19:47,499 [main] INFO myStore - click the menu
 2022-11-15 15:19:47,547 [main] INFO myStore - explicit wait - wait for the image to be click-able
 2022-11-15 15:19:49,540 [main] INFO myStore - item click success
+2022-11-15 15:51:53,915 [main] INFO myStore - URL is opened
+2022-11-15 15:51:54,841 [main] INFO myStore - successfully search
+2022-11-15 15:51:55,617 [main] INFO myStore - click the menu
+2022-11-15 15:51:55,681 [main] INFO myStore - explicit wait - wait for the image to be click-able
+2022-11-15 15:51:57,791 [main] INFO myStore - item click success
+2022-11-15 15:54:55,472 [main] INFO myStore - URL is opened
+2022-11-15 15:54:56,434 [main] INFO myStore - successfully search
+2022-11-15 15:54:57,194 [main] INFO myStore - click the menu
+2022-11-15 15:54:57,247 [main] INFO myStore - explicit wait - wait for the image to be click-able
+2022-11-15 15:54:59,296 [main] INFO myStore - item click success
+2022-11-15 15:55:05,078 [main] INFO myStore - popup capture success
+2022-11-15 16:08:20,598 [main] INFO myStore - URL is opened
+2022-11-15 16:08:21,562 [main] INFO myStore - successfully search
+2022-11-15 16:08:22,317 [main] INFO myStore - click the menu
+2022-11-15 16:08:22,372 [main] INFO myStore - explicit wait - wait for the image to be click-able
+2022-11-15 16:08:24,470 [main] INFO myStore - item click success
+2022-11-15 16:08:30,308 [main] INFO myStore - popup capture success
+2022-11-15 16:08:30,490 [main] INFO myStore - input QTY
+2022-11-15 16:13:37,630 [main] INFO myStore - URL is opened
+2022-11-15 16:13:38,557 [main] INFO myStore - successfully search
+2022-11-15 16:13:39,316 [main] INFO myStore - click the menu
+2022-11-15 16:13:39,369 [main] INFO myStore - explicit wait - wait for the image to be click-able
+2022-11-15 16:13:41,406 [main] INFO myStore - item click success
+2022-11-15 16:13:47,111 [main] INFO myStore - popup capture success
+2022-11-15 16:13:47,272 [main] INFO myStore - input QTY
+2022-11-15 16:15:06,548 [main] INFO myStore - URL is opened
+2022-11-15 16:15:07,498 [main] INFO myStore - successfully search
+2022-11-15 16:15:08,264 [main] INFO myStore - click the menu
+2022-11-15 16:15:08,319 [main] INFO myStore - explicit wait - wait for the image to be click-able
+2022-11-15 16:15:10,349 [main] INFO myStore - item click success
+2022-11-15 16:15:16,045 [main] INFO myStore - popup capture success
+2022-11-15 16:15:16,225 [main] INFO myStore - input QTY
+2022-11-15 16:17:07,144 [main] INFO myStore - URL is opened
+2022-11-15 16:17:08,123 [main] INFO myStore - successfully search
+2022-11-15 16:17:08,860 [main] INFO myStore - click the menu
+2022-11-15 16:17:08,918 [main] INFO myStore - explicit wait - wait for the image to be click-able
+2022-11-15 16:17:10,879 [main] INFO myStore - item click success
+2022-11-15 16:17:16,578 [main] INFO myStore - popup capture success
+2022-11-15 16:17:16,760 [main] INFO myStore - input QTY
+2022-11-15 16:19:33,452 [main] INFO myStore - URL is opened
+2022-11-15 16:19:34,461 [main] INFO myStore - successfully search
+2022-11-15 16:19:35,219 [main] INFO myStore - click the menu
+2022-11-15 16:19:35,282 [main] INFO myStore - explicit wait - wait for the image to be click-able
+2022-11-15 16:19:37,445 [main] INFO myStore - item click success
+2022-11-15 16:19:43,234 [main] INFO myStore - popup capture success
+2022-11-15 16:19:43,407 [main] INFO myStore - input QTY
+2022-11-15 17:01:34,988 [main] INFO myStore - URL is opened
+2022-11-15 17:01:36,199 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 17:11:59,257 [main] INFO myStore - URL is opened
+2022-11-15 17:12:00,503 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 17:12:02,322 [main] INFO myStore - click laptop
+2022-11-15 17:15:48,124 [main] INFO myStore - URL is opened
+2022-11-15 17:15:49,317 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 17:15:51,212 [main] INFO myStore - click laptop
+2022-11-15 17:18:19,671 [main] INFO myStore - URL is opened
+2022-11-15 17:18:20,843 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 17:18:22,986 [main] INFO myStore - click laptop
+2022-11-15 17:19:26,216 [main] INFO myStore - URL is opened
+2022-11-15 17:19:27,447 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 17:19:29,367 [main] INFO myStore - click laptop
+2022-11-15 17:20:25,308 [main] INFO myStore - URL is opened
+2022-11-15 17:20:26,577 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 17:20:28,770 [main] INFO myStore - click laptop
+2022-11-15 17:20:30,492 [main] INFO myStore - choose calender
+2022-11-15 17:20:30,686 [main] INFO myStore - input QTY
+2022-11-15 17:23:12,003 [main] INFO myStore - URL is opened
+2022-11-15 17:23:13,336 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 17:23:15,490 [main] INFO myStore - click laptop
+2022-11-15 17:23:17,320 [main] INFO myStore - choose calender
+2022-11-15 17:23:17,453 [main] INFO myStore - input QTY
+2022-11-15 17:23:55,173 [main] INFO myStore - URL is opened
+2022-11-15 17:23:56,452 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 17:23:58,289 [main] INFO myStore - click laptop
+2022-11-15 17:28:54,281 [main] INFO myStore - URL is opened
+2022-11-15 17:28:55,571 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 17:28:57,579 [main] INFO myStore - click laptop
+2022-11-15 17:37:43,663 [main] INFO myStore - URL is opened
+2022-11-15 17:37:48,626 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 17:37:50,727 [main] INFO myStore - click laptop
+2022-11-15 17:37:52,817 [main] INFO myStore - choose calender
+2022-11-15 17:37:52,960 [main] INFO myStore - input QTY
+2022-11-15 17:53:01,849 [main] INFO myStore - URL is opened
+2022-11-15 17:53:01,906 [main] INFO myStore - Index Page is displayed
+2022-11-15 17:53:06,681 [main] INFO myStore - URL is opened
+2022-11-15 17:53:08,003 [main] INFO myStore - input username
+2022-11-15 17:53:08,116 [main] INFO myStore - input password
+2022-11-15 17:53:14,459 [main] INFO myStore - URL is opened
+2022-11-15 17:53:23,359 [main] INFO myStore - URL is opened
+2022-11-15 17:53:24,240 [main] INFO myStore - successfully search
+2022-11-15 17:53:24,996 [main] INFO myStore - click the menu
+2022-11-15 17:53:25,052 [main] INFO myStore - explicit wait - wait for the image to be click-able
+2022-11-15 17:53:27,171 [main] INFO myStore - item click success
+2022-11-15 17:53:32,866 [main] INFO myStore - popup capture success
+2022-11-15 17:53:33,063 [main] INFO myStore - input QTY
+2022-11-15 17:53:33,531 [main] INFO myStore - Success - add cart
+2022-11-15 17:53:34,440 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 17:53:35,570 [main] INFO myStore - click laptop
+2022-11-15 17:56:30,221 [main] INFO myStore - URL is opened
+2022-11-15 17:56:31,172 [main] INFO myStore - successfully search
+2022-11-15 17:56:31,918 [main] INFO myStore - click the menu
+2022-11-15 17:56:31,967 [main] INFO myStore - explicit wait - wait for the image to be click-able
+2022-11-15 17:56:34,021 [main] INFO myStore - item click success
+2022-11-15 17:56:39,695 [main] INFO myStore - popup capture success
+2022-11-15 17:56:39,867 [main] INFO myStore - input QTY
+2022-11-15 17:56:40,263 [main] INFO myStore - Success - add cart
+2022-11-15 17:56:41,160 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 17:56:44,926 [main] INFO myStore - click laptop
+2022-11-15 17:58:03,234 [main] INFO myStore - URL is opened
+2022-11-15 17:58:04,193 [main] INFO myStore - successfully search
+2022-11-15 17:58:04,950 [main] INFO myStore - click the menu
+2022-11-15 17:58:05,007 [main] INFO myStore - explicit wait - wait for the image to be click-able
+2022-11-15 17:58:07,155 [main] INFO myStore - item click success
+2022-11-15 17:58:12,852 [main] INFO myStore - popup capture success
+2022-11-15 17:58:13,025 [main] INFO myStore - input QTY
+2022-11-15 17:58:13,421 [main] INFO myStore - Success - add cart
+2022-11-15 17:58:14,335 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 17:58:15,483 [main] INFO myStore - click laptop
+2022-11-15 18:00:04,577 [main] INFO myStore - URL is opened
+2022-11-15 18:00:05,531 [main] INFO myStore - successfully search
+2022-11-15 18:00:06,292 [main] INFO myStore - click the menu
+2022-11-15 18:00:06,350 [main] INFO myStore - explicit wait - wait for the image to be click-able
+2022-11-15 18:00:08,377 [main] INFO myStore - item click success
+2022-11-15 18:00:14,182 [main] INFO myStore - popup capture success
+2022-11-15 18:00:14,356 [main] INFO myStore - input QTY
+2022-11-15 18:00:14,768 [main] INFO myStore - Success - add cart
+2022-11-15 18:00:15,702 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 18:00:16,920 [main] INFO myStore - click laptop
+2022-11-15 18:00:16,921 [main] INFO myStore - scroll success
+2022-11-15 18:00:18,526 [main] INFO myStore - choose calender
+2022-11-15 18:02:25,556 [main] INFO myStore - URL is opened
+2022-11-15 18:02:26,508 [main] INFO myStore - successfully search
+2022-11-15 18:02:27,263 [main] INFO myStore - click the menu
+2022-11-15 18:02:27,320 [main] INFO myStore - explicit wait - wait for the image to be click-able
+2022-11-15 18:02:29,481 [main] INFO myStore - item click success
+2022-11-15 18:02:35,259 [main] INFO myStore - popup capture success
+2022-11-15 18:02:35,445 [main] INFO myStore - input QTY
+2022-11-15 18:02:35,859 [main] INFO myStore - Success - add cart
+2022-11-15 18:02:36,770 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 18:02:37,721 [main] INFO myStore - click laptop
+2022-11-15 18:02:39,262 [main] INFO myStore - choose calender
+2022-11-15 18:04:39,255 [main] INFO myStore - URL is opened
+2022-11-15 18:04:42,162 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 18:04:46,574 [main] INFO myStore - click laptop
+2022-11-15 18:04:48,188 [main] INFO myStore - choose calender
+2022-11-15 18:04:51,330 [main] INFO myStore - input QTY
+2022-11-15 18:04:51,978 [main] INFO myStore - Success - add cart
+2022-11-15 18:05:32,633 [main] INFO myStore - URL is opened
+2022-11-15 18:05:33,577 [main] INFO myStore - successfully search
+2022-11-15 18:05:34,338 [main] INFO myStore - click the menu
+2022-11-15 18:05:34,391 [main] INFO myStore - explicit wait - wait for the image to be click-able
+2022-11-15 18:05:36,391 [main] INFO myStore - item click success
+2022-11-15 18:05:42,204 [main] INFO myStore - popup capture success
+2022-11-15 18:05:42,384 [main] INFO myStore - input QTY
+2022-11-15 18:05:42,789 [main] INFO myStore - Success - add cart
+2022-11-15 18:05:43,708 [main] INFO myStore - Success - Move to laptop menu
+2022-11-15 18:05:44,518 [main] INFO myStore - click laptop
+2022-11-15 18:05:46,165 [main] INFO myStore - choose calender

@@ -2,6 +2,7 @@ package com.mystore.pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -39,7 +40,15 @@ public class IndexPage {
 	
 	@FindBy(linkText="Phones & PDAs")
 	@CacheLookup
-	WebElement menubar;
+	WebElement phoneMenu;
+	
+	@FindBy(linkText="Laptops & Notebooks")
+	@CacheLookup
+	WebElement laptopmenu;
+	
+	@FindBy(linkText="Show All Laptops & Notebooks")
+	@CacheLookup
+	WebElement subLaptopMenu;
 	
 	public boolean indexValidate() {
 		searchBox.isDisplayed();
@@ -67,8 +76,14 @@ public class IndexPage {
 		
 	}
 	
-	public void clickmenu() {
-		menubar.click();
+	public void clickPhoneMenu() {
+		phoneMenu.click();
+	}
+	
+	public void clickLaptopMenu() {
+		Actions actions = new Actions(ldriver);
+		actions.moveToElement(laptopmenu).perform();
+		subLaptopMenu.click();
 	}
 	
 }
