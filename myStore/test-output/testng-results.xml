@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-15T23:05:27Z" name="myStoreV1" finished-at="2022-11-15T23:05:49Z" duration-ms="22234">
+  <suite started-at="2022-11-16T22:43:06Z" name="myStoreV1" finished-at="2022-11-16T22:44:19Z" duration-ms="73564">
     <groups>
     </groups>
-    <test started-at="2022-11-15T23:05:27Z" name="eCommerce Test" finished-at="2022-11-15T23:05:49Z" duration-ms="22234">
-      <class name="com.mystore.testCases.TC_SearchTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_SearchTest_001@63a65a25]" started-at="2022-11-15T23:05:27Z" name="setup" finished-at="2022-11-15T23:05:32Z" duration-ms="5096" status="PASS">
+    <test started-at="2022-11-16T22:43:06Z" name="eCommerce Test" finished-at="2022-11-16T22:44:19Z" duration-ms="73564">
+      <class name="com.mystore.testCases.TC_ShoppingCart_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_ShoppingCart_001@159f197]" started-at="2022-11-16T22:43:49Z" name="setup" finished-at="2022-11-16T22:43:55Z" duration-ms="5401" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,49 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchTest()[pri:0, instance:com.mystore.testCases.TC_SearchTest_001@63a65a25]" started-at="2022-11-15T23:05:32Z" name="searchTest" finished-at="2022-11-15T23:05:49Z" duration-ms="16567" status="FAIL">
+        <test-method signature="shoppingCartTest()[pri:0, instance:com.mystore.testCases.TC_ShoppingCart_001@159f197]" started-at="2022-11-16T22:43:55Z" name="shoppingCartTest" finished-at="2022-11-16T22:44:19Z" duration-ms="23947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_ShoppingCart_001@159f197]" started-at="2022-11-16T22:44:19Z" name="tearDown" finished-at="2022-11-16T22:44:19Z" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testCases.TC_ShoppingCart_001 -->
+      <class name="com.mystore.testCases.TC_IndexTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@5276e6b0]" started-at="2022-11-16T22:43:06Z" name="setup" finished-at="2022-11-16T22:43:12Z" duration-ms="5832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="indexTest()[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@5276e6b0]" started-at="2022-11-16T22:43:12Z" name="indexTest" finished-at="2022-11-16T22:43:12Z" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- indexTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_IndexTest_001@5276e6b0]" started-at="2022-11-16T22:43:12Z" name="tearDown" finished-at="2022-11-16T22:43:12Z" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testCases.TC_IndexTest_001 -->
+      <class name="com.mystore.testCases.TC_SearchTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_SearchTest_001@647fd8ce]" started-at="2022-11-16T22:43:30Z" name="setup" finished-at="2022-11-16T22:43:36Z" duration-ms="5426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchTest()[pri:0, instance:com.mystore.testCases.TC_SearchTest_001@647fd8ce]" started-at="2022-11-16T22:43:36Z" name="searchTest" finished-at="2022-11-16T22:43:49Z" duration-ms="13592" status="FAIL">
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
               <![CDATA[stale element reference: element is not attached to the page document
@@ -27,8 +69,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-150NEV4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\baelo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9ff8bf9d47149ade63a3ab75bcbd0597]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\baelo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 325c4abc9e18a86ed83daf87c6ad1f05]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
@@ -37,8 +79,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-150NEV4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\baelo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9ff8bf9d47149ade63a3ab75bcbd0597
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\baelo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 325c4abc9e18a86ed83daf87c6ad1f05
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -48,14 +90,9 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.clear(Unknown Source)
-at com.mystore.pageObjects.ProductPage.inputQty(ProductPage.java:99)
-at com.mystore.testCases.TC_SearchTest_001.searchTest(TC_SearchTest_001.java:75)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:485)
+at com.mystore.pageObjects.ProductPage.scrollElement(ProductPage.java:88)
+at com.mystore.testCases.TC_SearchTest_001.searchTest(TC_SearchTest_001.java:70)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
@@ -85,11 +122,65 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_SearchTest_001@63a65a25]" started-at="2022-11-15T23:05:49Z" name="tearDown" finished-at="2022-11-15T23:05:49Z" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_SearchTest_001@647fd8ce]" started-at="2022-11-16T22:43:49Z" name="tearDown" finished-at="2022-11-16T22:43:49Z" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testCases.TC_SearchTest_001 -->
+      <class name="com.mystore.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_LoginTest_001@71b1176b]" started-at="2022-11-16T22:43:12Z" name="setup" finished-at="2022-11-16T22:43:17Z" duration-ms="5308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testCases.TC_LoginTest_001@71b1176b]" started-at="2022-11-16T22:43:18Z" name="loginTest" data-provider="LoginData" finished-at="2022-11-16T22:43:19Z" duration-ms="1553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test_01@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_LoginTest_001@71b1176b]" started-at="2022-11-16T22:43:19Z" name="tearDown" finished-at="2022-11-16T22:43:20Z" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testCases.TC_LoginTest_001 -->
+      <class name="com.mystore.testCases.TC_RegisterTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.TC_RegisterTest@6193932a]" started-at="2022-11-16T22:43:20Z" name="setup" finished-at="2022-11-16T22:43:25Z" duration-ms="5440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerTest()[pri:0, instance:com.mystore.testCases.TC_RegisterTest@6193932a]" started-at="2022-11-16T22:43:25Z" name="registerTest" finished-at="2022-11-16T22:43:30Z" duration-ms="4538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.TC_RegisterTest@6193932a]" started-at="2022-11-16T22:43:30Z" name="tearDown" finished-at="2022-11-16T22:43:30Z" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testCases.TC_RegisterTest -->
     </test> <!-- eCommerce Test -->
   </suite> <!-- myStoreV1 -->
 </testng-results>

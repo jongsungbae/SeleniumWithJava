@@ -9,9 +9,9 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">myStoreV1</th></tr>
-<tr><td><a href="#t0">eCommerce Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">22,234</td><td></td><td></td></tr>
+<tr><td><a href="#t0">eCommerce Test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">73,564</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">myStoreV1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">eCommerce Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.mystore.testCases.TC_SearchTest_001</td><td><a href="#m0">searchTest</a></td><td rowspan="1">1668553532652</td><td rowspan="1">16567</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">myStoreV1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">eCommerce Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.mystore.testCases.TC_SearchTest_001</td><td><a href="#m0">searchTest</a></td><td rowspan="1">1668638616024</td><td rowspan="1">13592</td></tr><tr><th colspan="4">eCommerce Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.mystore.testCases.TC_IndexTest_001</td><td><a href="#m1">indexTest</a></td><td rowspan="1">1668638592127</td><td rowspan="1">133</td></tr><tr class="passedodd"><td rowspan="1">com.mystore.testCases.TC_LoginTest_001</td><td><a href="#m2">loginTest</a></td><td rowspan="1">1668638598437</td><td rowspan="1">1553</td></tr><tr class="passedeven"><td rowspan="1">com.mystore.testCases.TC_RegisterTest</td><td><a href="#m3">registerTest</a></td><td rowspan="1">1668638605700</td><td rowspan="1">4538</td></tr><tr class="passedodd"><td rowspan="1">com.mystore.testCases.TC_ShoppingCart_001</td><td><a href="#m4">shoppingCartTest</a></td><td rowspan="1">1668638635330</td><td rowspan="1">23947</td></tr></tbody>
 </table>
 <h2>eCommerce Test</h2><h3 id="m0">com.mystore.testCases.TC_SearchTest_001#searchTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=107.0.5304.107)
@@ -19,20 +19,21 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;DESKTOP-150NEV4&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\baelo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9ff8bf9d47149ade63a3ab75bcbd0597
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\baelo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 325c4abc9e18a86ed83daf87c6ad1f05
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.clear(Unknown Source)
-	at com.mystore.pageObjects.ProductPage.inputQty(ProductPage.java:99)
-	at com.mystore.testCases.TC_SearchTest_001.searchTest(TC_SearchTest_001.java:75)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:485)
+	at com.mystore.pageObjects.ProductPage.scrollElement(ProductPage.java:88)
+	at com.mystore.testCases.TC_SearchTest_001.searchTest(TC_SearchTest_001.java:70)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.mystore.testCases.TC_IndexTest_001#indexTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.mystore.testCases.TC_LoginTest_001#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>test_01@test.com</td><td>test123!</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.mystore.testCases.TC_RegisterTest#registerTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.mystore.testCases.TC_ShoppingCart_001#shoppingCartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

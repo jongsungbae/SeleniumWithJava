@@ -60,6 +60,15 @@ WebDriver ldriver;
 	@FindBy(xpath="//td[text()='25']")
 	@CacheLookup
 	WebElement calenderDay;
+	
+	@FindBy(xpath="//*[@id=\'cart\']/button")
+	@CacheLookup
+	WebElement cartBtn;
+	
+	@FindBy(xpath="//*[@id=\'cart\']/ul/li[2]/div/p/a[2]")
+	@CacheLookup
+	WebElement checkoutBtn;
+	
 	public void clickfirstImage() {
 		firstImg.click();
 	}
@@ -108,8 +117,14 @@ WebDriver ldriver;
 		String actualMessage = addCartText.getText();
 		return actualMessage;
 	}
-		
 	
+	public void clickCart() {
+		cartBtn.click();
+	}
+	
+	public void clickCheckout() {
+		checkoutBtn.click();
+	}
 	
 
 }

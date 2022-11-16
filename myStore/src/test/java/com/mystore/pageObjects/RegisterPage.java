@@ -25,7 +25,7 @@ WebDriver ldriver;
 	
 	@FindBy(name="email")
 	@CacheLookup
-	WebElement email;
+	WebElement emailAddress;
 	
 	@FindBy(name="telephone")
 	@CacheLookup
@@ -48,26 +48,32 @@ WebDriver ldriver;
 	WebElement continueBtn;
 	
 	public void setFirstName(String firstName) {
+		fname.click();
 		fname.sendKeys(firstName);
 	}
 	
 	public void setLastName(String lastName) {
+		lname.click();
 		lname.sendKeys(lastName);
 	}
 	
 	public void setEmail(String txtemail) {
-		email.sendKeys(txtemail);
+		emailAddress.click();
+		emailAddress.sendKeys(txtemail);
 	}
 	
 	public void setTel(String phone) {
+		tel.click();
 		tel.sendKeys(phone);
 	}
 	
 	public void setPwd(String txtPwd) {
+		pwd.click();
 		pwd.sendKeys(txtPwd);
 	}
 	
 	public void confirmPwd(String cfPwd) {
+		confirmpwd.click();
 		confirmpwd.sendKeys(cfPwd);
 	}
 	

@@ -66,13 +66,15 @@ public class TC_SearchTest_001 extends baseClass {
 		
 		searchPage.clickLaptop();
 		logger.info("click laptop");
-		//productPage.scrollElement();
-		//logger.info("scroll success");
+		Thread.sleep(1000);
+		productPage.scrollElement();
+		logger.info("scroll success");
+		Thread.sleep(1000);
 		productPage.calender();
 		logger.info("choose calender");
 		
 		Thread.sleep(3000);
-		productPage.inputQty("3");
+		productPage.inputQty("2");
 		logger.info("input QTY");
 		
 		productPage.addToCart();
