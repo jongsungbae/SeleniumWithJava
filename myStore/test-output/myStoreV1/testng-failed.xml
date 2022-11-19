@@ -7,13 +7,13 @@
   <test thread-count="5" name="eCommerce Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.mystore.testCases.TC_SearchTest_001">
+      <class name="com.mystore.testCases.TC_UserAcceptance">
         <methods>
-          <include name="searchTest"/>
+          <include name="userStory" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.mystore.testCases.TC_SearchTest_001 -->
+      </class> <!-- com.mystore.testCases.TC_UserAcceptance -->
     </classes>
   </test> <!-- eCommerce Test(failed) -->
 </suite> <!-- Failed suite [myStoreV1] -->

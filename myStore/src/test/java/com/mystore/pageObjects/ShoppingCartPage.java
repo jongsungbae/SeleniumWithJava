@@ -53,10 +53,6 @@ public class ShoppingCartPage {
 	@CacheLookup
 	WebElement state;
 	
-//	@FindBy(name="shipping_address")
-//	@CacheLookup
-//	WebElement checkbox;
-	
 	@FindBy(id="button-account")
 	@CacheLookup
 	WebElement btnContinue;
@@ -68,7 +64,6 @@ public class ShoppingCartPage {
 	@FindBy(id="button-shipping-method")
 	@CacheLookup
 	WebElement btnMethodContinue;
-	
 	
 	@FindBy(id="button-payment-method")
 	@CacheLookup
@@ -85,6 +80,14 @@ public class ShoppingCartPage {
 	@FindBy(id="button-confirm")
 	@CacheLookup
 	WebElement btnConfirm;
+	
+	@FindBy(id="button-payment-address")
+	@CacheLookup
+	WebElement btnPaymentConti;
+	
+	@FindBy(id="button-shipping-address")
+	@CacheLookup
+	WebElement btnDeliveryConti;
 	
 	public void clickGuest() {
 		guestAccount.click();
@@ -167,16 +170,16 @@ public class ShoppingCartPage {
 		btnMethodContinue.click();
 	}
 	
-//	public boolean validCheckBox() {
-//		if(!checkBox.isSelected()) {
-//			checkBox.click();
-//			}
-//		return true;
-//	}
-	
-
 	public void clickContinue3() {
 		btnPaymentContinue.click();
+	}
+	
+	public void clickDeliveryDetail() {
+		btnDeliveryConti.click();
+	}
+	
+	public void clickPaymentDetail() {
+		btnPaymentConti.click();
 	}
 	
 	@FindBy(xpath="//*[@id=\'collapse-checkout-confirm\']/div/div[1]/table/tbody/tr/td[3]")
@@ -211,7 +214,6 @@ public class ShoppingCartPage {
 		System.out.println(fPrice);
 		return tPrice == fPrice;
 	}
-	
 	
 	public void clickConfirm() {
 		btnConfirm.click();

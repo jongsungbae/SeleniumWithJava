@@ -599,3 +599,54 @@
 2022-11-16 17:44:14,428 - myStore -INFO - Success - Payment Method
 2022-11-16 17:44:16,611 - myStore -INFO - Validate Price
 2022-11-16 17:44:18,762 - myStore -INFO - Order success
+2022-11-19 12:55:28,648 - myStore -INFO - URL is opened
+2022-11-19 12:55:30,509 - myStore -INFO - Success - Move to laptop & Notebooks
+2022-11-19 12:55:32,709 - myStore -INFO - click HP3065 Labtop
+2022-11-19 12:55:34,331 - myStore -INFO - choose calender
+2022-11-19 12:55:36,467 - myStore -INFO - input QTY
+2022-11-19 12:55:37,541 - myStore -INFO - Success - Add to Cart
+2022-11-19 12:55:39,933 - myStore -INFO - Move to Checkout Page
+2022-11-19 12:55:40,032 - myStore -INFO - input username
+2022-11-19 12:55:40,123 - myStore -INFO - input password
+2022-11-19 12:55:40,193 - myStore -INFO - Success - step1
+2022-11-19 12:55:40,730 - myStore -INFO - screen success
+2022-11-19 12:58:22,720 - myStore -INFO - URL is opened
+2022-11-19 12:58:24,498 - myStore -INFO - Success - Move to laptop & Notebooks
+2022-11-19 12:58:26,568 - myStore -INFO - click HP3065 Labtop
+2022-11-19 12:58:28,140 - myStore -INFO - choose calender
+2022-11-19 12:58:30,275 - myStore -INFO - input QTY
+2022-11-19 12:58:31,345 - myStore -INFO - Success - Add to Cart
+2022-11-19 12:58:33,677 - myStore -INFO - Move to Checkout Page
+2022-11-19 12:58:33,777 - myStore -INFO - input username
+2022-11-19 12:58:33,866 - myStore -INFO - input password
+2022-11-19 12:58:33,942 - myStore -INFO - Success - step1
+2022-11-19 12:58:34,471 - myStore -INFO - scroll success
+2022-11-19 13:01:34,988 - myStore -INFO - URL is opened
+2022-11-19 13:01:36,788 - myStore -INFO - Success - Move to laptop & Notebooks
+2022-11-19 13:01:39,084 - myStore -INFO - click HP3065 Labtop
+2022-11-19 13:01:40,759 - myStore -INFO - choose calender
+2022-11-19 13:01:42,897 - myStore -INFO - input QTY
+2022-11-19 13:01:43,972 - myStore -INFO - Success - Add to Cart
+2022-11-19 13:01:46,306 - myStore -INFO - Move to Checkout Page
+2022-11-19 13:01:46,412 - myStore -INFO - input username
+2022-11-19 13:01:46,505 - myStore -INFO - input password
+2022-11-19 13:01:46,584 - myStore -INFO - Success - step1
+2022-11-19 13:01:47,758 - myStore -INFO - Success - Billing Details
+2022-11-19 13:01:48,491 - myStore -INFO - Success - Delivery Details
+2022-11-19 13:01:49,469 - myStore -INFO - Success - Delevery Method
+2022-11-19 13:01:50,319 - myStore -INFO - Success - Payment Method
+2022-11-19 13:03:39,462 - myStore -INFO - URL is opened
+2022-11-19 13:03:41,429 - myStore -INFO - Success - Move to laptop & Notebooks
+2022-11-19 13:03:43,569 - myStore -INFO - click HP3065 Labtop
+2022-11-19 13:03:45,133 - myStore -INFO - choose calender
+2022-11-19 13:03:47,267 - myStore -INFO - input QTY
+2022-11-19 13:03:48,340 - myStore -INFO - Success - Add to Cart
+2022-11-19 13:03:50,679 - myStore -INFO - Move to Checkout Page
+2022-11-19 13:03:50,787 - myStore -INFO - input username
+2022-11-19 13:03:50,875 - myStore -INFO - input password
+2022-11-19 13:03:50,946 - myStore -INFO - Success - step1
+2022-11-19 13:03:52,110 - myStore -INFO - Success - Billing Details
+2022-11-19 13:03:52,898 - myStore -INFO - Success - Delivery Details
+2022-11-19 13:03:53,795 - myStore -INFO - Success - Delevery Method
+2022-11-19 13:03:55,778 - myStore -INFO - Success - Payment Method
+2022-11-19 13:03:59,897 - myStore -INFO - Order success
